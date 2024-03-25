@@ -1,0 +1,56 @@
+#logo image{
+    width:20%
+}
+
+#clock span::after{
+    content:'';
+    font-size:16px;
+    transform:translateX(-50%);
+
+}
+
+#clock{
+    font-size: 20px;
+}
+#header{
+    margin-top:20px;
+    display:flex;
+    justify-content: space-between;
+}
+
+#nimcont{
+    display:flex;
+}
+#namecont{
+    display:flex;
+    margin-top:10px;
+}
+#addresscont{
+    display:flex;
+    margin-top:10px;
+}
+
+#nimcont input{
+    margin-left:50px;
+    margin-right:auto;
+    height: 30px;
+    width: 50%;
+}
+#namecont input{
+    margin-left:39px;
+    margin-right:auto;
+    height: 30px;
+    width: 50%;
+}
+#addresscont input{
+    margin-left:32px;
+    margin-right:auto;
+    height: 30px;
+    width: 50%;
+    
+}
+
+#entries{
+    width: 5%;
+    
+}
